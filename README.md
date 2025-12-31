@@ -22,7 +22,7 @@ O objetivo é automatizar a identificação de objetos em tempo real (ou em víd
 * **Linguagem:** Python
 * **Modelo:** Ultralytics YOLOv11
 * **Processamento de Imagem:** OpenCV
-* **Hardware:** Treinamento realizado em GPU (Ideal) / CPU - +/- 30 minutos
+* **Hardware:** Treinamento realizado em GPU (Ideal)
 * **Ferramenta de Anotação:** Roboflow
 
 ## 📂 Estrutura do Projeto
