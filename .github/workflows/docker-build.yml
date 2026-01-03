@@ -23,3 +23,4 @@ jobs:
           context: .
           push: true
           tags: emmerickdavi/api-epi-v1:latest
+          
