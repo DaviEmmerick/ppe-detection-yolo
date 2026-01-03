@@ -19,11 +19,11 @@ O objetivo é automatizar a identificação de objetos em tempo real (ou em víd
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Linguagem:** Python
+* **Linguagem:** Python, C++
 * **Modelo:** Ultralytics YOLOv11
 * **Processamento de Imagem:** OpenCV
 * **Hardware:** Treinamento realizado em GPU (Ideal)
-* **Ferramenta de Anotação:** Roboflow
+* **MLOps:** FastAPI, MLflow, Docker, AWS
 
 ## 📂 Estrutura do Projeto
 
