@@ -57,7 +57,7 @@ Para garantir que o ambiente tenha todas as dependências de Visão Computaciona
 Abaixo estão os resultados do treinamento inicial realizado com YOLO11. 
 Este modelo serve como baseline para a migração para C++.
 
-![Resultados do Treinamento](runs/detect/treino_epi_v1/results.png)
+![Resultados do Treinamento](results.png)
 
 **Destaques Técnicos:**
 * **mAP50:** Atingiu ~0.8, demonstrando alta confiabilidade na localização dos EPIs.
