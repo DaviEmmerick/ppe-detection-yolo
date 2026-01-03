@@ -54,4 +54,6 @@ Para garantir que o ambiente tenha todas as dependências de Visão Computaciona
 
 ## 📊 Métricas e Resultados
 
-Em breve
+Análise Geral 
+
+![Resultados](runs/detect/treino_epi_v1/results.png)
