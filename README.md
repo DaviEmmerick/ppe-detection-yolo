@@ -62,3 +62,12 @@ Este modelo serve como baseline para a migração para C++.
 **Destaques Técnicos:**
 * **mAP50:** Atingiu ~0.8, demonstrando alta confiabilidade na localização dos EPIs.
 * **Estabilidade:** Curvas de Loss de validação seguem o treino, indicando ausência de overfitting.
+
+## 🚀 Roadmap de Evolução (V1)
+
+Atualmente o projeto está em sua fase de prototipagem (Python). Os próximos passos focam em performance e escalabilidade industrial:
+
+- [ ] **Migração para C++:** Reescrever o pipeline de inferência para reduzir latência.
+- [ ] **Otimização de Modelo:** Conversão para ONNX/TensorRT com quantização FP16/INT8.
+- [ ] **Deploy Cloud (AWS):** Implementação de pipeline de CD para AWS ECR/ECS.
+- [ ] **Monitoramento (MLOps):** Tracking de experimentos com MLflow.
