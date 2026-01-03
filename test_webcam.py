@@ -2,7 +2,7 @@ import cv2
 import os
 from ultralytics import YOLO
 
-model_path = "runs/detect/treino_epi_v1/weights/best.pt"
+model_path = "runs/detect/treino_epi_v1/weights/best.onnx"
 
 if not os.path.exists(model_path):
     print(f"O arquivo {model_path} não foi encontrado!")
