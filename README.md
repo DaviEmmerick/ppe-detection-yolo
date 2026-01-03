@@ -37,6 +37,21 @@ yolo-project/
 └── README.md
 ```
 
+
+## 🐳 Como rodar com Docker
+
+Para garantir que o ambiente tenha todas as dependências de Visão Computacional, utilize o Docker:
+
+1. **Build da imagem:**
+   ```bash
+   docker build -t api-epi-v1 .
+   ```
+
+2. **Run do container**
+   ```bash
+    docker run -p 8000:8000 api-epi-v1
+   ```
+
 ## 📊 Métricas e Resultados
 
 Em breve
