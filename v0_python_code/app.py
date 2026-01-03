@@ -12,7 +12,7 @@ def get_status():
     return RedirectResponse(url="/docs")
 
 
-model_path = "best.onnx"
+model_path = "runs/detect/treino_epi_v1/weights/best.pt"
 model_epi = YOLO(model_path)
 model_people = YOLO("yolo11n.pt")
 
