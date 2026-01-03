@@ -15,3 +15,5 @@ __pycache__/
 *.o
 *.out
 *.exe
+mlflow.db
+mlruns/
