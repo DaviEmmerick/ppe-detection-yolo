@@ -52,15 +52,13 @@ Para garantir que o ambiente tenha todas as dependências de Visão Computaciona
     docker run -p 8000:8000 api-epi-v1
    ```
 
-## 📊 Métricas e Resultados
+## 📊 Métricas e Resultados (V0)
 
-Análise Geral 
+Abaixo estão os resultados do treinamento inicial realizado com YOLO11. 
+Este modelo serve como baseline para a migração para C++.
 
-O modelo foi treinado por 30 épocas, atingindo um mAP50 de ~0.8 e um Recall de quase 70%
+![Resultados do Treinamento](runs/detect/treino_epi_v1/results.png)
 
-![Resultados](./runs/detect/treino_epi_v1/results.png)
-
-
-## Implementações Futuras
-
-- Migração para C++ para otimizar a latência de inferência e reduzir custos de infraestrutura.
+**Destaques Técnicos:**
+* **mAP50:** Atingiu ~0.8, demonstrando alta confiabilidade na localização dos EPIs.
+* **Estabilidade:** Curvas de Loss de validação seguem o treino, indicando ausência de overfitting.
