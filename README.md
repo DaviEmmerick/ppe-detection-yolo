@@ -56,4 +56,11 @@ Para garantir que o ambiente tenha todas as dependências de Visão Computaciona
 
 Análise Geral 
 
-![Resultados](runs/detect/treino_epi_v1/results.png)
+O modelo foi treinado por 30 épocas, atingindo um mAP50 de ~0.8 e um Recall de quase 70%
+
+![Resultados](./runs/detect/treino_epi_v1/results.png)
+
+
+## Implementações Futuras
+
+- Migração para C++ para otimizar a latência de inferência e reduzir custos de infraestrutura.
