@@ -15,7 +15,7 @@ with mlflow.start_run(run_name="Tracking - V0"):
     mlflow.log_param("framework", "PyTorch")
 
     if os.path.exists(model_relative_path):
-        mlflow.log_artifact(model_relative_path)
-        print("Modelo registrado no MLflow com sucesso!")
+        mlflow.log_artifact(model_relative_path, artifact_path="model_output")
+        print("Upload concluído! Verifique a pasta 'model_output' na UI.")
     else:
         print(f"ERRO: Arquivo não encontrado em: {os.path.abspath(model_relative_path)}")
