@@ -4,7 +4,8 @@ USER root
 
 WORKDIR /app
 
-RUN apt-get clean & apt get update -fix-missing && apt-get install -y --no-install-recommends \
+RUN sed -i 's/deb.debian.org/ftp.us.debian.org/g' /etc/apt/sources.list && \
+    apt-get clean && apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     python3-dev \
     libgl1-mesa-glx \
