@@ -67,7 +67,9 @@ Este modelo serve como baseline para a migração para C++.
 
 Atualmente o projeto está em sua fase de prototipagem (Python). Os próximos passos focam em performance e escalabilidade industrial:
 
-- [ ] **Migração para C++:** Reescrever o pipeline de inferência para reduzir latência.
-- [ ] **Otimização de Modelo:** Conversão para ONNX/TensorRT com quantização FP16/INT8.
-- [ ] **Deploy Cloud (AWS):** Implementação de pipeline de CD para AWS ECR/ECS.
-- [ ] **Monitoramento (MLOps):** Tracking de experimentos com MLflow.
+- [X] **Migração para C++:** Reescrever o pipeline de inferência para reduzir latência.
+- [X] **Otimização de Modelo:** Conversão para ONNX/TensorRT com quantização FP16/INT8.
+- [X] **Automação:** Implementação de pipeline de CI/CD no Docker Hub.
+- [X] **Monitoramento (MLOps):** Tracking de experimentos com MLflow.
+- [ ] **Re-treino:** Treinar novamente o modelo com MLflow Client se o mAP50 cair abaixo de N
+- [ ] **Deploy:** Realizar o deploy na AWS, S3 para o melhor modelo e App Runner/ECS para o container
