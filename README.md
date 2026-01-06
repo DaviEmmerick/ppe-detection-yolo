@@ -71,5 +71,5 @@ Atualmente o projeto está em sua fase de prototipagem (Python). Os próximos pa
 - [X] **Otimização de Modelo:** Conversão para ONNX/TensorRT com quantização FP16/INT8.
 - [X] **Automação:** Implementação de pipeline de CI/CD no Docker Hub.
 - [X] **Monitoramento (MLOps):** Tracking de experimentos com MLflow.
-- [ ] **Re-treino:** Treinar novamente o modelo com MLflow Client se o mAP50 cair abaixo de N
+- [X] **Re-treino:** Treinar novamente o modelo com MLflow Client se o mAP50 cair abaixo de N
 - [ ] **Deploy:** Realizar o deploy na AWS, S3 para o melhor modelo e App Runner/ECS para o container
