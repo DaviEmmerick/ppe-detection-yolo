@@ -18,3 +18,4 @@ __pycache__/
 mlflow.db
 mlartifacts/
 mlruns/
+yolo11n.pt
