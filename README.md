@@ -3,6 +3,10 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![YOLOv11](https://img.shields.io/badge/Model-YOLOv11-purple)
 ![OpenCV](https://img.shields.io/badge/Library-OpenCV-green)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 
 ## 📄 Sobre o Projeto
 
